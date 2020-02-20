@@ -8,6 +8,7 @@ On shutdown the video source will be closed and the connected display automatica
 ## TODO
 This software is incomplete and unusable as of right now but there are a few basic tasks that I have planned out.
 
-1. Read a list of channels from a file and use the remote control's channel change buttons to select the currently playing channel.
+1. Use the remote control's channel change buttons to select the currently playing channel.
 2. Add a systemd service to auto launch on boot and turn off on shut down.
 3. Provide prebuilt binaries and/or debs.
+4. Better way of specifying the user to run as.
