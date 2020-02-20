@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"os"
 
 	"github.com/laher/cec"
@@ -10,7 +10,7 @@ import (
 func main() {
 	c, err := cec.Open("", "SetTopPi")
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 		return
 	}
 	defer func() {
@@ -22,7 +22,7 @@ func main() {
 	s := &stp{}
 	chanf, err := os.Open("channels.txt")
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 		return
 	}
 	defer chanf.Close()
@@ -32,7 +32,7 @@ func main() {
 	err = s.Run()
 
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 		return
 	}
 }
