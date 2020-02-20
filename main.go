@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chbmuc/cec"
+	"github.com/laher/cec"
 )
 
 func main() {

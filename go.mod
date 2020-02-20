@@ -1,3 +1,3 @@
 module github.com/jacobalberty/SetTopPi
 
-require github.com/chbmuc/cec v0.0.0-20170405204755-573ad0b0369b
+require github.com/laher/cec v0.0.0-20190309034130-b35491135d47
