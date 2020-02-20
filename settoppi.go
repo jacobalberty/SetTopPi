@@ -2,10 +2,11 @@ package main
 
 import (
 	"bufio"
-	"github.com/jleight/omxplayer"
 	"io"
 	"log"
 	"time"
+
+	"github.com/jleight/omxplayer"
 )
 
 type stp struct {
